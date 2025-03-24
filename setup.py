@@ -13,7 +13,7 @@ with open(os.path.join(here, 'README.md'), mode='r', encoding='utf-8') as f:
 
 setup(
     name='worldometer',
-    version=worldometer.__version__,
+    version="2.0.0",
     description='Get live, population, geography, projected, and historical data from around the world.',
     long_description=long_description,
     long_description_content_type='text/markdown',
