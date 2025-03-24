@@ -9,6 +9,7 @@ homepage = "https://github.com/matheusfelipeog/worldometer"
 repository = "https://github.com/matheusfelipeog/worldometer"
 documentation = "https://worldometer.readthedocs.io"
 packages = [{include = "worldometer"}]
+requires-python = ">=3.9,<4.0"
 keywords = [
     "worldometer", "worldometers", "worldometer-api", "worldometer-scraping",
     "world-data", "world-metrics", "metrics", "real-time-data", "real-time-metrics",
@@ -36,7 +37,6 @@ classifiers = [
 "Pull Requests" = "https://github.com/matheusfelipeog/worldometer/pulls"
 
 [tool.poetry.dependencies]
-python = ">=3.9,<4.0"
 requests-html = "^0.10.0"
 pandas = "^2.1.1"
 html5lib = "^1.1"
